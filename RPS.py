@@ -40,9 +40,9 @@ def rungame():
                     rounds += 1
                     print(pc_selection + ', Perdiste!!!')
                     pc_points += 1
-                    print('Jugador: ' + str(user_points))
-                    print('Computador: ' + str(pc_points))
-                    break
+                print('Jugador: ' + str(user_points))
+                print('Computador: ' + str(pc_points))
+                break
             while pc_selection == 'Papel':
                 if user_selection == 'Tijera':
                     rounds += 1
@@ -52,9 +52,9 @@ def rungame():
                     rounds += 1
                     print(pc_selection + ', Perdiste!!!')
                     pc_points += 1
-                    print('Jugador: ' + str(user_points))
-                    print('Computador: ' + str(pc_points))
-                    break
+                print('Jugador: ' + str(user_points))
+                print('Computador: ' + str(pc_points))
+                break
             while pc_selection == 'Tijera':
                 if user_selection == 'Piedra':
                     rounds += 1
@@ -64,9 +64,9 @@ def rungame():
                     rounds += 1
                     print(pc_selection + ', Perdiste!!!')
                     pc_points += 1
-                    print('Jugador: ' + str(user_points))
-                    print('Computador: ' + str(pc_points))
-                    break
+                print('Jugador: ' + str(user_points))
+                print('Computador: ' + str(pc_points))
+                break
         if user_points == 2:
             print('You: ' + str(user_points))
             print('Pc: ' + str(pc_points))
