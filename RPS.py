@@ -43,29 +43,29 @@ def rungame():
                     print('Jugador: ' + str(user_points))
                     print('Computador: ' + str(pc_points))
                     break
-            while pc_choice == 'Papel':
-                if user_choice == 'Tijera':
+            while pc_selection == 'Papel':
+                if user_selection == 'Tijera':
                     rounds += 1
-                    print(pc_choice + ', Ganaste!!!')
-                    victorias_jugador += 1
+                    print(pc_selection + ', Ganaste!!!')
+                    user_points += 1
                 else:
                     rounds += 1
-                    print(pc_choice + ', Perdiste!!!')
-                    victorias_pc += 1
-                    print('Jugador: ' + str(victorias_jugador))
-                    print('Computador: ' + str(victorias_pc))
+                    print(pc_selection + ', Perdiste!!!')
+                    pc_points += 1
+                    print('Jugador: ' + str(user_points))
+                    print('Computador: ' + str(pc_points))
                     break
-            while pc_choice == 'Tijera':
-                if user_choice == 'Piedra':
+            while pc_selection == 'Tijera':
+                if user_selection == 'Piedra':
                     rounds += 1
-                    print(pc_choice + ', Ganaste!!!')
-                    victorias_jugador += 1
+                    print(pc_selection + ', Ganaste!!!')
+                    user_points += 1
                 else:
                     rounds += 1
-                    print(pc_choice + ', Perdiste!!!')
-                    victorias_pc += 1
-                    print('Jugador: ' + str(victorias_jugador))
-                    print('Computador: ' + str(victorias_pc))
+                    print(pc_selection + ', Perdiste!!!')
+                    pc_points += 1
+                    print('Jugador: ' + str(user_points))
+                    print('Computador: ' + str(pc_points))
                     break
 
         if user_points == 2:
