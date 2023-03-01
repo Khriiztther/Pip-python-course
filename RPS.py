@@ -67,7 +67,6 @@ def rungame():
                     print('Jugador: ' + str(user_points))
                     print('Computador: ' + str(pc_points))
                     break
-
         if user_points == 2:
             print('You: ' + str(user_points))
             print('Pc: ' + str(pc_points))
