@@ -20,9 +20,9 @@ def rungame():
 
         pc_selection = random.choice(options)
 
-        if not user_choice in options:
+        if not user_selection in options:
             print('Esa no es una opcion')
-            print(user_choice)
+            print(user_selection)
             continue
 
         if user_selection == pc_selection:
@@ -78,6 +78,7 @@ def rungame():
             print('Pc: ' + str(pc_points))
             print('Computer wins!!!!!')
             break
-
+if __name__ == '__main__':
+    rungame()
 
 
