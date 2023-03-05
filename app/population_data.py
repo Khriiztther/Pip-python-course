@@ -10,7 +10,7 @@ def run():
     print(readable[0])
     selected = input('Enter the country: ')
     country = country_data.country_info(readable, selected)
-    country = country_data.country_info(readable)
+    # country = country_data.country_info(readable)
     print('****' * 10 )
     print(country)
     print('****' * 10 )
