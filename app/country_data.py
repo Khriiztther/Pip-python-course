@@ -1,7 +1,7 @@
 
 def country_info(file, country):
-  result = list(filter(lambda item: item['Country/Territory'] == country, file))
-  return result
+    result = list(filter(lambda item: item['Country/Territory'] == country, file))
+    return result
 
 # def population_info(country):
 #   population = {
@@ -20,7 +20,7 @@ def country_info(file, country):
 #   return labels, values
     
 def population_info(country):
-  index[country] = index['World Population Percentage']
-  return index
+    index[country] = index['World Population Percentage']
+    return index
 
     
