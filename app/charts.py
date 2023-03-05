@@ -16,6 +16,6 @@ def generate_pie(labels, values):
 if __name__ == '__main__':
     labels = ['a', 'b', 'c']
     values = [10, 295, 800]
-    # generate_bar(labels, values)
+    generate_bar(labels, values)
     generate_pie(labels, values)
   
