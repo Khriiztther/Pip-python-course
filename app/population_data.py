@@ -18,10 +18,11 @@ def run():
         country = country[0]
         labels, values = country_data.population_info(country)
         charts.generate_bar(labels, values)
-    countries = list(map(lambda x: x['Country/Territory'], readable))
-    population = list(map(lambda x: x['World Population Percentage'], readable))
+        charts.generate_pie(labels, values)
+    # countries = list(map(lambda x: x['Country/Territory'], readable))
+    # population = list(map(lambda x: x['World Population Percentage'], readable))
 
-    charts.generate_pie(countries, population)
+    # charts.generate_pie(countries, population)
 
     # for i in readable:
     #   countries.append(readable[-1])
