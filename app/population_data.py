@@ -17,8 +17,8 @@ def run():
     if len(country) > 0:
         country = country[0]
         labels, values = country_data.population_info(country)
-        charts.generate_bar(labels, values)
-        charts.generate_pie(labels, values)
+        charts.generate_bar(country['Country/Territory'], labels, values)
+        charts.generate_pie(country['Country/Territory'], labels, values)
     # countries = list(map(lambda x: x['Country/Territory'], readable))
     # population = list(map(lambda x: x['World Population Percentage'], readable))
 
